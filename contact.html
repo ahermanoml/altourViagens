@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato - Altour Viagens</title>
+  <meta name="description" content="Entre em contato com a Altour Viagens e solicite seu orçamento personalizado.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="scrolled">
+    <nav class="container">
+      <a href="index.html" class="logo">Altour<span>Viagens</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="nav-link">Início</a></li>
+        <li><a href="about.html" class="nav-link">Sobre</a></li>
+        <li><a href="destinations.html" class="nav-link">Destinos</a></li>
+        <li><a href="packages.html" class="nav-link">Pacotes</a></li>
+        <li><a href="testimonials.html" class="nav-link">Depoimentos</a></li>
+        <li><a href="contact.html" class="nav-link active">Contato</a></li>
+      </ul>
+      <button class="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <h1>Fale Conosco</h1>
+      <p>Estamos prontos para planejar a viagem dos seus sonhos</p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact">
+    <div class="container">
+      <div class="contact-wrapper">
+
+        <!-- Contact Info -->
+        <div class="contact-info">
+          <h3>Informações de Contato</h3>
+          <p>Entre em contato conosco por qualquer um dos canais abaixo. Responderemos o mais rápido possível!</p>
+
+          <div class="contact-item">
+            <div class="contact-icon">&#128205;</div>
+            <div class="contact-item-text">
+              <h4>Endereço</h4>
+              <p>Rua Principal, 500 - Centro<br>Centro, Tupaciguara - MG<br>CEP: 38400-000</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">&#128222;</div>
+            <div class="contact-item-text">
+              <h4>Telefone / WhatsApp</h4>
+              <p>(34) 9999-8888<br>(34) 3333-4444</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">&#9993;</div>
+            <div class="contact-item-text">
+              <h4>E-mail</h4>
+              <p>contato@altourviagens.com.br<br>reservas@altourviagens.com.br</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">&#128336;</div>
+            <div class="contact-item-text">
+              <h4>Horário de Atendimento</h4>
+              <p>Seg a Sex: 9h às 18h<br>Sáb: 9h às 13h</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form">
+          <form>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Nome Completo</label>
+                <input type="text" id="name" name="name" placeholder="Seu nome" required>
+              </div>
+              <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="phone">Telefone</label>
+                <input type="tel" id="phone" name="phone" placeholder="(34) 99999-9999">
+              </div>
+              <div class="form-group">
+                <label for="destination">Destino de Interesse</label>
+                <select id="destination" name="destination">
+                  <option value="">Selecione...</option>
+                  <option value="rio">Rio de Janeiro</option>
+                  <option value="noronha">Fernando de Noronha</option>
+                  <option value="gramado">Gramado</option>
+                  <option value="salvador">Salvador</option>
+                  <option value="cancun">Cancún</option>
+                  <option value="paris">Paris</option>
+                  <option value="lisboa">Lisboa</option>
+                  <option value="maldivas">Maldivas</option>
+                  <option value="europa">Europa Clássica</option>
+                  <option value="outro">Outro</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="travelers">Número de Viajantes</label>
+                <select id="travelers" name="travelers">
+                  <option value="">Selecione...</option>
+                  <option value="1">1 pessoa</option>
+                  <option value="2">2 pessoas</option>
+                  <option value="3-4">3-4 pessoas</option>
+                  <option value="5+">5 ou mais</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="date">Data Prevista</label>
+                <input type="month" id="date" name="date">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="message">Mensagem</label>
+              <textarea id="message" name="message" placeholder="Conte-nos mais sobre a viagem que você deseja..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width: 100%;">Enviar Mensagem</button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- MAP PLACEHOLDER -->
+  <section style="background: var(--bg-light); padding: 0;">
+    <div style="background: linear-gradient(135deg, var(--primary-light), var(--primary-dark)); height: 300px; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 1.2rem;">
+      <div style="text-align: center;">
+        <div style="font-size: 3rem; margin-bottom: 10px;">&#128205;</div>
+        <p><strong>Rua Principal, 500 - Centro</strong></p>
+        <p>Tupaciguara - MG</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <a href="index.html" class="logo">Altour<span>Viagens</span></a>
+          <p>Transformando sonhos em viagens inesquecíveis desde 2010. Sua satisfação é o nosso destino.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook">f</a>
+            <a href="#" aria-label="Instagram">in</a>
+            <a href="#" aria-label="WhatsApp">wa</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Links Rápidos</h4>
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="about.html">Sobre Nós</a></li>
+            <li><a href="destinations.html">Destinos</a></li>
+            <li><a href="packages.html">Pacotes</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Destinos</h4>
+          <ul>
+            <li><a href="destinations.html">Brasil</a></li>
+            <li><a href="destinations.html">América do Sul</a></li>
+            <li><a href="destinations.html">Europa</a></li>
+            <li><a href="destinations.html">Caribe</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contato</h4>
+          <ul>
+            <li>contato@altourviagens.com.br</li>
+            <li>(34) 9999-8888</li>
+            <li>Tupaciguara, MG</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Altour Viagens. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
